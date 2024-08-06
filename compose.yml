@@ -1,0 +1,5 @@
+services:
+  main:
+    build: ./nginx/
+    ports:
+      - 8001:80
