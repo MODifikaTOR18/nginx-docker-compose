@@ -1,5 +1,6 @@
 services:
   main:
     build: ./nginx/
+    container_name: nginx-config
     ports:
       - 8001:80
